@@ -63,6 +63,8 @@ wideimg.addEventListener("load", loader);
 
 ////// select event
 function selecter(event) {
-  event.target.style.display = "none";
+  event.target.console.log();
 }
 navv.addEventListener("select", selecter);
+
+///////
